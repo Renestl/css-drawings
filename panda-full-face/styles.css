@@ -1,0 +1,72 @@
+body {
+	background: #FFF8DD;
+}
+.left-ear {
+	position: absolute;
+	top: -50px;
+	left: -100px;
+	width: 200px;
+	height: 200px;
+	-webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+	background: #000;
+}
+.right-ear {
+	position: absolute;
+	top: -50px;
+	right: -100px;
+	width: 200px;
+	height: 200px;
+	-webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+	background: #000;
+}
+
+.face {
+	/*border: 2px black solid;*/
+	position: relative;
+	margin: auto;
+	display: block;
+	margin-top: 8%;
+	width: 70%;
+	padding-top: 75%;
+	background: none;
+}
+
+.left-eye {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	width: 30%;
+	height: 32%;
+	border-radius: 50%;
+	background: #000;
+}
+.right-eye {
+	position: absolute;
+	top: 35%;
+	right: 10%;
+	width: 30%;
+	height: 32%;
+	border-radius: 50%;
+	background: #000;
+}
+.pupil {
+	position: absolute;
+	top: 15%;
+	left: 22%;
+	width: 50%;
+	height: 50%;
+	background: #191411;
+	border: 2.5px solid #FFF8DD;
+	border-radius: 50%;
+}
+
+.nose {
+	position: absolute;
+	top: 70%;
+	left: 37.5%;
+	width: 25%;
+	height: 20%;
+	background: #191411;
+}
