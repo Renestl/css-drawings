@@ -1,0 +1,94 @@
+$bamboo: #167C32;
+$pandabody: #fff;
+$pandablack: #000;
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $bamboo;
+}
+
+.box {
+	position: relative;
+	margin: auto;
+	display: block;
+	background: #543818;
+	width: 600px;
+	height: 480px;
+	margin-top: 10%;
+}
+
+// .panda {
+// 	background: blue;
+// 	position: relative;
+// 	top: 10%;
+// 	left: 10%;
+// 	height: 80%;
+// 	width: 80%;
+// }
+
+.head {
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	width: 25%;
+	height:31%;
+	background: $pandabody;
+	border-radius: 50%;
+
+}
+
+.head-copy {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: $pandabody;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.left-ear {
+	position: absolute;
+	top:0;
+	left: -20%;
+	width: 50%;
+	height: 62%;
+	background: $pandablack;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.right-ear {
+	position: absolute;
+	top:0;
+	right: -20%;
+	width: 50%;
+	height: 62%;
+	background: $pandablack;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.left-eye-fur {
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	width: 22%;
+	height: 35%;
+	border-radius: 50%;
+	background: $pandablack;
+	transform: skewX(-10deg);
+	z-index: 3;
+}
+
+.right-eye-fur {
+	position: absolute;
+	top: 25%;
+	right: 20%;
+	width: 22%;
+	height: 35%;
+	border-radius: 50%;
+	background: $pandablack;
+	transform: skewX(10deg);
+	z-index: 3;
+}
