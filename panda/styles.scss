@@ -8,24 +8,20 @@ body {
 	background-color: $bamboo;
 }
 
+header {
+	color: $pandabody;
+	text-align: center;
+	font-style: italic;
+}
+
 .box {
 	position: relative;
 	margin: auto;
 	display: block;
-	background: #543818;
 	width: 600px;
 	height: 480px;
 	margin-top: 10%;
 }
-
-// .panda {
-// 	background: blue;
-// 	position: relative;
-// 	top: 10%;
-// 	left: 10%;
-// 	height: 80%;
-// 	width: 80%;
-// }
 
 .head {
 	position: absolute;
@@ -93,3 +89,178 @@ body {
 	z-index: 3;
 }
 
+.left-eye {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	height: 43%;
+	border-radius: 50%;
+	background: $pandabody;
+	transform: skewX(10deg);
+	z-index: 4;
+}
+
+.right-eye {
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	width: 60%;
+	height: 43%;
+	border-radius: 50%;
+	background: $pandabody;
+	transform: skewX(-10deg);
+	z-index: 4;
+}
+
+.pupil {
+	position: absolute;
+	top:5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	background: $pandablack;
+	z-index: 5;
+}
+
+.nose {
+	position: absolute;
+	top: 55%;
+	left: 35%;
+	width: 30%;
+	height: 25%;
+	// -webkit-clip-path: polygon(49% 100%, 0 0, 100% 0);
+	// clip-path: polygon(49% 90%, 0 0, 100% 0);
+	// background: $pandablack;
+	z-index: 3;
+}
+
+.top-left {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 50%;
+	height: 40%;
+	background: $pandablack;
+	border-top-left-radius: 20%;
+	border-bottom-left-radius: 30%;
+	z-index: 4;
+}
+.top-right {
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	width: 50%;
+	height: 40%;
+	background: $pandablack;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 30%;
+	z-index: 4;
+}
+.middle {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	width: 58%;
+	height: 40%;
+	background: $pandablack;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	z-index: 4;
+}
+
+.mouth {
+	position: absolute;
+	top: 66%;
+	left: 30%;
+	width: 30%;
+	height: 10%;
+	background: $pandabody;
+	border-radius: 30%;
+	border: 5px solid $pandablack;
+	border-top: 5px solid $pandabody;
+	border-left: 5px solid $pandabody;
+	border-right: 5px solid $pandabody;
+	z-index: 4;
+}
+
+.body {
+	position: absolute;
+	top: 53%;
+	left: 40%;
+	width: 25%;
+	height:40%;
+	background: $pandabody;
+	border-radius: 50%;
+}
+
+.body-copy {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: $pandabody;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.belly {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 80%;
+	height: 30%;
+	position: absolute;
+	background: $pandablack;
+	border-radius: 50%;
+	border-bottom-left-radius: 45%;
+	border-bottom-right-radius: 45%;
+	
+	z-index: 3;
+}
+
+.left-arm {
+	position: absolute;
+	top: 10%;
+	left: -15%;
+	width: 30%;
+	height: 50%;
+	background: $pandablack;
+	border-radius: 50%;
+	transform: rotate(20deg);
+	z-index: 4;
+}
+
+.right-arm {
+	position: absolute;
+	top: 10%;
+	right: -15%;
+	width: 30%;
+	height: 50%;
+	background: $pandablack;
+	border-radius: 50%;
+	transform: rotate(-20deg);
+	z-index: 4;
+}
+
+.left-foot {
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	width: 40%;
+	height: 45%;
+	background: $pandablack;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.right-foot {
+	position: absolute;
+	top: 60%;
+	right: 5%;
+	width: 40%;
+	height: 45%;
+	background: $pandablack;
+	border-radius: 50%;
+	z-index: 4;
+}
