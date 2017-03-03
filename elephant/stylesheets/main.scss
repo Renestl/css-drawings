@@ -70,3 +70,69 @@ $pupil: black;
 	border-radius: 30%;
 	z-index: 2;
 }
+
+.left-eye {
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	width: 40%;
+	height: 40%;
+	background: $eyes;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.right-eye {
+	position: absolute;
+	top: 20%;
+	right: 7%;
+	width: 40%;
+	height: 40%;
+	background: $eyes;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.iris {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	background: $iris;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.pupil {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	background: $pupil;
+	border-radius: 50%;
+	z-index: 5;
+}
+
+.nose {
+	position: absolute;
+	top: 51%;
+	left: 24%;
+	width: 68%;
+	height: 110%;
+	clip-path: polygon(20.09% 23.76%,25.05% 34.30%,33.75% 43.42%,43.43% 51.41%,59.03% 59.16%,75.74% 67.89%,97.48% 49.67%,79.36% 43.62%,65.21% 37.31%,56.75% 24.63%,56.62% 10.54%,19.49% 10.82%);
+	background: lightgrey;
+	z-index: 2;
+}
+
+.inner-nose {
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	width: 70%;
+	height: 110%;
+	clip-path: polygon(20.09% 23.76%,25.05% 34.30%,33.75% 43.42%,43.43% 51.41%,59.03% 59.16%,75.74% 67.89%,97.48% 49.67%,79.36% 43.62%,65.21% 37.31%,56.75% 24.63%,56.62% 10.54%,19.49% 10.82%);
+	background: $elephant;
+	z-index: 3;
+}
